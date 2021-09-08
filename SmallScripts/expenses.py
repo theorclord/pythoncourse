@@ -8,6 +8,5 @@ for ex in expenses:
 
 print("You spent $", total, " on lunch this week.", sep="")
 
-
 for i in range(7):
-    print(i)
+    expenses.append(float(input("Enter an expense:")))
